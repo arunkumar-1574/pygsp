@@ -137,8 +137,8 @@ class SphereHealpix(NNGraph):
         ## TODO: check std
     
         ## TODO: n_neighbors in function of Nside
-        if len(indexes) <= n_neighbors:
-            n_neighbors = len(indexes)-1
+        #if len(indexes) <= n_neighbors:
+           # n_neighbors = len(indexes)-1
         
         plotting = {
             'vertex_size': 80,
